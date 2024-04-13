@@ -1,12 +1,19 @@
-/* This is a CSS style sheet for rules that should be applied over the
-   entire application.  We are not using the name prefix for these rules.  */
+/*
+CSS for the CS142 project #5 main page
 
-/* class="container" - Sets some margins around the element so it is spaced
-                       from the top, bottom, and sides of the window. */
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+html, body {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 
-.container {
-  padding: 40px 10px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.cs142-main-topbar-buffer {
+  margin-top: 70px;
+}
+
+.cs142-main-grid-item {
+  /* height: calc(100vh - 85px); */
+  padding: 10px;
 }
